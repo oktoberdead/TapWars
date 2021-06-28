@@ -45,8 +45,8 @@ lClick.onclick = function(){
 	if(mlPos < window.innerWidth * 0.95){
 		rPos += window.innerWidth * 0.005;
 		mlPos += window.innerWidth * 0.005;
-		lCol[1] += window.innerWidth * 0.0003;
-		rCol[1] -= window.innerWidth * 0.0003;
+		lCol[1] += window.innerWidth * 0.0006;
+		rCol[1] -= window.innerWidth * 0.0006;
 		rWidth -= window.innerWidth * 0.005;
 		lWidth += window.innerWidth * 0.005;
 	}
@@ -63,8 +63,8 @@ rClick.onclick = function(){
 	if(mlPos > window.innerWidth * 0.05){
 		rPos -= window.innerWidth * 0.005;
 		mlPos -= window.innerWidth * 0.005;
-		lCol[1] -= window.innerWidth * 0.0003;
-		rCol[1] += window.innerWidth * 0.0003;
+		lCol[1] -= window.innerWidth * 0.0006;
+		rCol[1] += window.innerWidth * 0.0006;
 		rWidth += window.innerWidth * 0.005;
 		lWidth -= window.innerWidth * 0.005;
 	}
